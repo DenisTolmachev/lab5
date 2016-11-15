@@ -1,0 +1,32 @@
+@import url(reset.css);
+
+body {
+    color: #fffafa;
+    font-family: "Tahoma";
+    font-size: 14pt;
+    background-color: black;
+
+}
+
+.container {
+    height: 1064px;
+    width: 1215px;
+    margin: 0 auto;
+}
+
+header {
+    height: 43px;
+    width: 1215px;
+    background-image: url("/img/bghead.png")
+}
+
+section {
+    background-image: url("/img/bg.jpg");
+    height: 1028px;
+    width: 1215px;
+}
+
+.centralblock {
+    background-color: black;
+    opacity:;
+}
