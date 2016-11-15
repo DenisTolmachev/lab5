@@ -5,28 +5,47 @@ body {
     font-family: "Tahoma";
     font-size: 14pt;
     background-color: black;
-
-}
-
-.container {
-    height: 1064px;
-    width: 1215px;
-    margin: 0 auto;
 }
 
 header {
     height: 43px;
-    width: 1215px;
+    width: 100%;
     background-image: url("/img/bghead.png")
 }
 
-section {
-    background-image: url("/img/bg.jpg");
-    height: 1028px;
+.menu {
+    height:43px;
     width: 1215px;
+    margin: 0 auto;
+    /*background-color: antiquewhite;*/
 }
 
-.centralblock {
-    background-color: black;
-    opacity:;
+.wrapper {
+    height: 1080px;
+    min-width: 1215px;
+    background-image: url("/img/bg_body.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
 }
+
+.container {
+    height: 1028px;
+    width: 1215px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding-top: 190px;
+    /*background-color: snow;*/
+    /*border: solid 1px #000;*/
+}
+
+.centerblock {
+    height: 613px;
+    width: 560px;
+    background-color:black;
+    opacity: 0.63;
+    margin: auto;
+}
+
+
+
