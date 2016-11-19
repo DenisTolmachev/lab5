@@ -43,3 +43,18 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+*, :after, :before, :hover {
+    box-sizing: border-box;
+}
+
+.clearfixt:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    zoom: 1;
+}
